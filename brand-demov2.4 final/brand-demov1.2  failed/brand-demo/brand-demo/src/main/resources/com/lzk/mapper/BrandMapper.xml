@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lzk.mapper.BrandMapper">
+
+
+
+    <resultMap id="brandResultMap" type="brand">
+        <result column="brand_name" property="brandName"/>
+        <result column="goods_name" property="goodsName"/>
+
+    </resultMap>
+
+    <select  id="sum" resultType="Integer">
+        SELECT ifnull(sum(total),0) FROM cart where user_id =#{id}
+    </select>
+
+    <select id="delete">
+        update cart set status = 0 where user_id =#{id}
+    </select>
+
+    <select id="checknull" resultType="int">
+        select count(status) from cart where user_id = #{userid} and goods_Name=#{goodsName}
+    </select>
+
+    <select id="getnum" resultType="int">
+        select sum(status) from cart where user_id = #{userid} and goods_Name=#{goodsName}
+    </select>
+
+
+</mapper>

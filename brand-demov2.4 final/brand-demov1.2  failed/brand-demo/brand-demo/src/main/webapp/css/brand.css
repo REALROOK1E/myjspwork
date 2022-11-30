@@ -1,0 +1,111 @@
+
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: url(../imgs/akl.jpg) no-repeat 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    font-style: initial;
+}
+
+
+
+
+
+
+p {
+    margin-top: 30px;
+    margin-left: 20px;
+    color: azure;
+}
+
+
+
+#add{
+    width: 100px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border-style: hidden;
+    height: 30px;
+    background-color: rgba(216, 191, 216, 0.5);
+    outline: none;
+    color: #f0edf3;
+    padding-left: 10px;
+}
+#delete{
+    width: 100px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border-style: hidden;
+    height: 30px;
+    background-color: rgba(216, 191, 216, 0.5);
+    outline: none;
+    color: #f0edf3;
+    padding-left: 10px;
+}
+ #logout{
+    width: 100px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border-style: hidden;
+    height: 30px;
+    background-color: rgba(216, 191, 216, 0.5);
+    outline: none;
+    color: #f0edf3;
+    padding-left: 10px;
+}
+#msg{
+    width: 100px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border-style: hidden;
+    height: 30px;
+    background-color: rgba(216, 191, 216, 0.5);
+    outline: none;
+    color: #f0edf3;
+    padding-left: 10px;
+}
+ #ad{
+     width: 50px;
+     margin-left: 15px;
+     border-radius: 5px;
+     border-style: hidden;
+     height: 30px;
+     background-color: rgba(216, 191, 216, 0.5);
+     outline: none;
+     color: #f0edf3;
+     padding-left: 10px;
+ }
+ #--{
+     width: 50px;
+     margin-left: 15px;
+     border-radius: 5px;
+     border-style: hidden;
+     height: 30px;
+     background-color: rgba(216, 191, 216, 0.5);
+     outline: none;
+     color: #f0edf3;
+     padding-left: 10px;
+ }
+#subDiv {
+    text-align: center;
+    margin-top: 30px;
+}
+#loginMsg{
+    text-align: center;
+    color: aliceblue;
+}
+#errorMsg{
+    text-align: center;
+    color:red;
+}
